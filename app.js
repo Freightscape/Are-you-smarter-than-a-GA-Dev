@@ -15,9 +15,23 @@ function questionPlayer() {
       const answerOptions = []; //This will store all of the possible answes
 
       for (letter in thisQuestion.answerOptions) {
+        answerOptions.push(
+          //adding a radio button to the HTML page via Label
+          `<label>
+                <input type="radio" name="question${questionNum}" value="${letter}">
+                ${letter} :
+                ${thisQuestion.answer[letter]}    
+            </label>`
+        );
       }
+
+      output.push(
+        `<div class="question"> ${thisQuestion.question}</div>
+      <div class="answers> ${answers.join("")} </div>`
+      );
     }
   );
+  questionsContainer.innerHTML = output.join("");
 }
 
 questionPlayer();

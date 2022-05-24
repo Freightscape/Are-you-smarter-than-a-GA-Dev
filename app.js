@@ -27,8 +27,10 @@
 
     questionsContainer.innerHTML = questionGenerator.join("");
   }
+  function showQuestion(x) {}
   function playerAnswer() {}
 
+  //Question Framework in HTML (Container for questions, Buttons, Question/Answer Text)
   const questionsContainer = document.getElementById("Question-Panel");
   const submitButton = document.getElementById("submit");
   const contdownDisplay = document.getElementById("countdown");

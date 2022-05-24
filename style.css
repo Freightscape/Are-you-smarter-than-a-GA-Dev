@@ -1,3 +1,8 @@
 img {
   max-width: 200px;
 }
+
+.question {
+  color: red;
+  font-size: 20ppx;
+}

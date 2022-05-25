@@ -19,6 +19,7 @@ body {
 
   display: inline-block;
 }
-/* .active-thumbnail {
+.active-thumbnail {
   opacity: 1;
-} */
+  z-index: 2;
+}

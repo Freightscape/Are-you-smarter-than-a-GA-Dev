@@ -42,36 +42,39 @@
   const playerStrikes = document.getElementById("strikes");
   const gameQuestions = [
     {
-      question: "Asked This?",
+      question: "Which of the following is the proper Syntax of a FUNCTION?",
       answer: {
-        A: "First Choice",
-        B: "Second Choice",
-        C: "Third Choice",
-        D: "Fourth Choice",
+        A: "function nameFunction() {};",
+        B: "nameFunction()",
+        C: "function = nameFunction(){}",
+        D: "function (){};",
+      },
+      rightAnswer: "A",
+    },
+    {
+      question: "This code: const votes = [10, 20, 30], is a?",
+      answer: {
+        A: "Object",
+        B: "Array",
+        C: "Function",
+        D: "Console Log",
       },
       rightAnswer: "B",
     },
     {
-      question: "Asked That?",
+      question: "This ${} represents what?",
       answer: {
-        A: "First Choice",
-        B: "Second Choice",
-        C: "Third Choice",
-        D: "Fourth Choice",
+        A: "Template Liberal",
+        B: "Template Literal",
+        C: "Camel Case",
+        D: "Kamel Case",
       },
-      rightAnswer: "C",
-    },
-    {
-      question: "Asked Again?",
-      answer: {
-        A: "First Choice",
-        B: "Second Choice",
-        C: "Third Choice",
-        D: "Fourth Choice",
-      },
-      rightAnswer: "D",
+      rightAnswer: "B",
     },
   ];
+  submitButton.addEventListener("click", function (e) {
+    console.log("submitButton");
+  });
 
   questionPlayer();
 

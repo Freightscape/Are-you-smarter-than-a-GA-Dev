@@ -21,10 +21,8 @@
 
       questionGenerator.push(
         //creating a class to display questions
-        `<div class="thumbnail">
-           <div class="question"> ${thisQuestion.question}</div>
-           <div class="answer"> ${answerOptions.join("")} </div>
-       </div>`
+        `  <div class="question"> ${thisQuestion.question}</div>
+           <div class="answer"> ${answerOptions.join("")} </div>`
       );
     });
 

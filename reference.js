@@ -70,7 +70,7 @@
   const submitButton = document.getElementById("submit");
   const myQuestions = [
     {
-      question: "Which of the following is the proper Syntax of a FUNCTION?",
+      question: "1. Which of the following is the proper Syntax of a FUNCTION?",
       answers: {
         a: "function nameFunction() {};",
         b: "nameFunction()",
@@ -80,7 +80,7 @@
       correctAnswer: "a",
     },
     {
-      question: "This code: const votes = [10, 20, 30], is a?",
+      question: "2. This code: const votes = [10, 20, 30], is a?",
       answers: {
         a: "Object",
         b: "Array",
@@ -90,7 +90,7 @@
       correctAnswer: "b",
     },
     {
-      question: "This ${} represents what?",
+      question: "3. This ${} represents what?",
       answers: {
         a: "Template Liberal",
         b: "Template Literal",
@@ -98,6 +98,76 @@
         d: "Kamel Case",
       },
       correctAnswer: "b",
+    },
+    {
+      question: "4. Async Defer goes where?",
+      answers: {
+        a: "Script Src",
+        b: "Link Rel",
+        c: "Div ID",
+        d: "Button ID",
+      },
+      correctAnswer: "a",
+    },
+    {
+      question: "5. The Quotations after the function() are _____ a parameter?",
+      answers: {
+        a: "Provided",
+        b: "Pushed",
+        c: "Plugged",
+        d: "Passed",
+      },
+      correctAnswer: "d",
+    },
+    {
+      question: "6. Which of the following is the right way to decrement?",
+      answers: {
+        a: "i++",
+        b: "i+=",
+        c: "i-+",
+        d: "i--",
+      },
+      correctAnswer: "d",
+    },
+    {
+      question: "7. MKDIR will do what in the Terminal?",
+      answers: {
+        a: "Move to a New Directory",
+        b: "Create a New Directory",
+        c: "Create a New Folder",
+        d: "Manage the Known Database",
+      },
+      correctAnswer: "b",
+    },
+    {
+      question: "8. Git Push does what to your Repository?",
+      answers: {
+        a: "Update with new Commits",
+        b: "Changes File Location",
+        c: "Creates new Github Key/Token",
+        d: "Remotely accesses All Repositorys",
+      },
+      correctAnswer: "a",
+    },
+    {
+      question: "9. GA Outcomes is a resource that...",
+      answers: {
+        a: "Guarentees Job Placement",
+        b: "Hosts the GA Graduation Event",
+        c: "Aid's Graduates in Job Search/Placement",
+        d: "Selects the GA Cohort Students",
+      },
+      correctAnswer: "c",
+    },
+    {
+      question: "6. Click the _________ to mark your attendence",
+      answers: {
+        a: "sei-outcomes Slack Channel",
+        b: "Pull request",
+        c: "Fork",
+        d: "Red Chili Pepper",
+      },
+      correctAnswer: "d",
     },
   ];
 

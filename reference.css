@@ -1,6 +1,12 @@
 img {
   max-width: 200px;
 }
+h1 {
+  text-align: right;
+  margin-top: -80px;
+  font-size: 40px;
+  color: rgb(191, 0, 0);
+}
 body {
   font-size: 30px;
   font-family: sans-serif;

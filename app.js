@@ -31,7 +31,14 @@
   function displayThumbnail(questionPage) {
     thumbnail[questionPage].classList.add("active-thumbnail");
   }
-  //function playerAnswer() {}
+  function playerAnswer() {
+    const answerContainers = questionsContainer.querySelectorAll(".answer");
+    let numCorrect = 0;
+
+    gameQuestions.forEach((thisQuestion, questionNum) => {
+      const answerContainer = answerContainer;
+    });
+  }
 
   //Question Framework in HTML (Container for questions, Buttons, Question/Answer Text)
   const questionsContainer = document.getElementById("Question-Panel");
@@ -52,12 +59,12 @@
     {
       question: "This code: const votes = [10, 20, 30], is a?",
       answer: {
-        A: "Object",
-        B: "Array",
-        C: "Function",
-        D: "Console Log",
+        a: "Object",
+        b: "Array",
+        c: "Function",
+        d: "Console Log",
       },
-      rightAnswer: "B",
+      rightAnswer: "b",
     },
     {
       question: "This ${} represents what?",

@@ -70,32 +70,34 @@
   const submitButton = document.getElementById("submit");
   const myQuestions = [
     {
-      question: "Who invented JavaScript?",
+      question: "Which of the following is the proper Syntax of a FUNCTION?",
       answers: {
-        a: "Douglas Crockford",
-        b: "Sheryl Sandberg",
-        c: "Brendan Eich",
+        a: "function nameFunction() {};",
+        b: "nameFunction()",
+        c: "function = nameFunction(){}",
+        d: "function (){};",
       },
-      correctAnswer: "c",
+      correctAnswer: "a",
     },
     {
-      question: "Which one of these is a JavaScript package manager?",
+      question: "This code: const votes = [10, 20, 30], is a?",
       answers: {
-        a: "Node.js",
-        b: "TypeScript",
-        c: "npm",
+        a: "Object",
+        b: "Array",
+        c: "Function",
+        d: "Console Log",
       },
-      correctAnswer: "c",
+      correctAnswer: "b",
     },
     {
-      question: "Which tool can you use to ensure code quality?",
+      question: "This ${} represents what?",
       answers: {
-        a: "Angular",
-        b: "jQuery",
-        c: "RequireJS",
-        d: "ESLint",
+        a: "Template Liberal",
+        b: "Template Literal",
+        c: "Camel Case",
+        d: "Kamel Case",
       },
-      correctAnswer: "d",
+      correctAnswer: "b",
     },
   ];
 

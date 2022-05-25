@@ -8,9 +8,11 @@ body {
 }
 .question {
   font-weight: 600;
+  text-align: left;
 }
 .answers {
   margin-bottom: 20px;
+  text-align: left;
 }
 .answers label {
   display: block;

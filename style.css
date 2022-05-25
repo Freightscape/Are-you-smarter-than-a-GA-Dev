@@ -7,16 +7,18 @@ body {
 .question {
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
 }
 .answer {
   font-size: 20px;
   display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
 }
 .thumbnail {
   color: red;
   font-size: 20ppx;
-
+  text-align: left;
   display: inline-block;
 }
 .active-thumbnail {

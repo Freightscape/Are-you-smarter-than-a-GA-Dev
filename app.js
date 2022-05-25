@@ -81,5 +81,5 @@
 
   displayThumbnail(pageNow);
 
-  submitButton.addEventListener("click", playerAnswer);
+  // submitButton.addEventListener("click", playerAnswer);
 })();

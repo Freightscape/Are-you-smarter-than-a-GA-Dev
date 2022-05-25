@@ -2,28 +2,33 @@ img {
   max-width: 200px;
 }
 body {
-  font-size: 20px;
+  font-size: 30px;
   font-family: sans-serif;
   color: #333;
 }
 .question {
   font-weight: 600;
   text-align: left;
-  background-color: red;
+  /* background-color: red; */
+  background-image: url("7AB5DF3F-D5AA-4908-9573-00FF3AC8B1AD.png");
+  background-size: 900px;
+  background-position: 50%;
+  background-color: #279;
   color: white;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
-  border: 2px solid rgb(157, 125, 125);
-  padding: 20px;
+  border: 1px solid lightcoral;
+  padding: 200px;
   box-shadow: rgb(240, 214, 214) 10px 10px;
 }
 .answers {
   margin-bottom: 20px;
   text-align: left;
-  background-color: rgb(252, 229, 229);
+  background-color: rgb(133, 48, 48);
+  color: white;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  border: 2px solid rgb(75, 56, 56);
+  border: 1px solid rgba(142, 41, 41, 0.611);
   box-shadow: rgb(240, 214, 214) 10px 10px;
 }
 .answers label {

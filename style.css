@@ -1,8 +1,20 @@
 img {
   max-width: 200px;
 }
-
+body {
+  font-size: 30px;
+}
 .question {
+  font-size: 30px;
+}
+.answer {
+  font-size: 30px;
+}
+.thumbnail {
   color: red;
   font-size: 20ppx;
+  position: absolute;
+}
+.active-thumbnail {
+  opacity: 1;
 }

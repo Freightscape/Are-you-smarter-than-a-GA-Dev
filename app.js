@@ -20,15 +20,20 @@
       }
 
       questionGenerator.push(
-        `<div class="question"> ${thisQuestion.question}</div>
-            <div class="answer"> ${answerOptions.join("")} </div>`
+        //creating a class to display questions
+        `<div class="thumbnail">
+           <div class="question"> ${thisQuestion.question}</div>
+           <div class="answer"> ${answerOptions.join("")} </div>
+       </div>`
       );
     });
 
     questionsContainer.innerHTML = questionGenerator.join("");
   }
-  function showQuestion(x) {}
-  function playerAnswer() {}
+  function displayThumbnail(questionPage) {
+    thumbnail[questionPage].classList.add("active-thumbnail");
+  }
+  //function playerAnswer() {}
 
   //Question Framework in HTML (Container for questions, Buttons, Question/Answer Text)
   const questionsContainer = document.getElementById("Question-Panel");
@@ -70,5 +75,11 @@
 
   questionPlayer();
 
+  //Building Display Page
+  const thumbnail = document.querySelectorAll(".thumbnail");
+  let pageNow = 0;
+
+  displayThumbnail(pageNow);
+
   submitButton.addEventListener("click", playerAnswer);
-});
+})();

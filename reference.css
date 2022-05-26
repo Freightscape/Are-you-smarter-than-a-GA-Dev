@@ -5,7 +5,7 @@ h1 {
   text-align: right;
   margin-top: -80px;
   font-size: 40px;
-  color: rgb(191, 0, 0);
+  color: rgb(133, 48, 48);
 }
 body {
   font-size: 30px;
@@ -43,7 +43,7 @@ body {
 #submit {
   font-family: sans-serif;
   font-size: 20px;
-  background-color: #279;
+  background-color: rgba(142, 41, 41, 0.611);
   color: #fff;
   border: 0px;
   border-radius: 3px;
@@ -52,5 +52,5 @@ body {
   margin-bottom: 20px;
 }
 #submit:hover {
-  background-color: #38a;
+  background-color: rgb(240, 214, 214) 10px 10px;
 }
